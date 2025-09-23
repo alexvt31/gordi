@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "homepage": "https://alexvt31.github.io/gordi",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --open",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
